@@ -1,1 +1,39 @@
-<p>login works!</p>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CleanFinance</title>
+  <link routerLink="preconnect" href="https://fonts.googleapis.com">
+  <link routerLink="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link routerLink="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"> 
+
+</head>
+<body>
+  <nav>
+    <a routerLink="../index.html"><img src="../assets/images/icons8-material-ui-48.png"/>   </a>
+    <div class="sideMenu">
+      <img src="./assets/images/menu-icon.svg" alt="Menu Icon">
+    </div>
+    <div class="menu">
+      <div class="links">
+        <a routerLink="listagemClientes">Clientes</a>
+        <a routerLink="cartoes">Cartões</a>
+        <a routerLink="compras">Compras</a>
+        <a routerLink="relatorios">Relatórios</a>
+      </div>
+      <div class="buttons">
+        <button>Login</button>
+        <button id="signUp">Cadastrar cliente</button>        
+      </div>
+    </div>
+  </nav>
+
+    <form>
+    <input type="email" placeholder="Seu e-mail">
+    <button class="signUp">Cadastrar</button>
+  </form>
+
+</body>
+</html>
